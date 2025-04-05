@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Estilos para el encabezado */
+
 header {
     background-color: #333;
     color: white;
@@ -14,7 +14,18 @@ header {
     padding: 20px;
 }
 
-/* Menú de navegación */
+.header-content {
+    display: flex;          
+    justify-content: space-between;  
+    align-items: center;     
+    padding: 10px 20px;      
+  }
+  
+  .header-content img {
+    width: 60px;    
+    height: 60px;
+  }
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -36,7 +47,7 @@ h3{
     color: #252323;
 }
 
-/* Secciones */
+
 div {
     padding: 20px;
     background-color: white;
@@ -44,14 +55,13 @@ div {
     border-radius: 5px;
 }
 
-/* Estilos de imágenes */
+
 img {
     display: block;
     margin: 10px auto;
     max-width: 100%;
 }
 
-/* Estilos para tablas */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -65,7 +75,7 @@ th, td {
     text-align: center;
 }
 
-/* Estilos del formulario */
+
 form {
     background-color: #fff;
     padding: 20px;
@@ -90,7 +100,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Pie de página */
 footer {
     background-color: #333;
     color: white;
